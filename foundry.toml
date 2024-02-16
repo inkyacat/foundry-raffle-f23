@@ -1,0 +1,7 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = ['@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts'] # <- This basically subsitutes the part of the code before the equal sign for the part after the equal sign in our import statement
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
